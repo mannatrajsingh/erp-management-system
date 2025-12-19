@@ -1,0 +1,13 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Java compiled files
+*.class
+
+# Libraries (DO NOT push jars)
+*.jar
+
+# macOS
+.DS_Store
