@@ -5,9 +5,9 @@ The system uses **role-based access control**, a **separate authentication datab
 
 ---
 
-## 📌 Features Overview
+##  Features Overview
 
-### 🔐 Authentication & Roles
+###  Authentication & Roles
 - Secure login system using a separate **Auth Database**
 - Roles supported:
   - **Admin**
@@ -18,7 +18,7 @@ The system uses **role-based access control**, a **separate authentication datab
 
 ---
 
-## 👨‍🎓 Student Features
+##  Student Features
 - Browse course catalog
 - Register and drop sections (with capacity and deadline checks)
 - View registered sections and timetable
@@ -28,7 +28,7 @@ The system uses **role-based access control**, a **separate authentication datab
 
 ---
 
-## 👩‍🏫 Instructor Features
+##  Instructor Features
 - View only assigned sections
 - Enter assessment scores (Quiz / Midterm / Endsem)
 - Compute final grades based on configured weights
@@ -38,7 +38,7 @@ The system uses **role-based access control**, a **separate authentication datab
 
 ---
 
-## 🛠️ Admin Features
+##  Admin Features
 - Create users (students / instructors / admins)
 - Create and edit courses
 - Create and edit sections
@@ -48,7 +48,7 @@ The system uses **role-based access control**, a **separate authentication datab
 
 ---
 
-## 🔧 Maintenance Mode
+##  Maintenance Mode
 - When enabled:
   - Students and instructors can **view data**
   - All write actions (register, drop, grade entry) are blocked
@@ -57,7 +57,7 @@ The system uses **role-based access control**, a **separate authentication datab
 
 ---
 
-## 🗄️ Database Design
+##  Database Design
 
 ### Authentication Database
 - `users_auth`
@@ -81,7 +81,7 @@ The system uses **role-based access control**, a **separate authentication datab
 
 ---
 
-## 📊 Grading System
+##  Grading System
 - Assessment components (Quiz / Midterm / Endsem)
 - Configurable weight per section
 - Final grade computed using weighted average
@@ -89,7 +89,7 @@ The system uses **role-based access control**, a **separate authentication datab
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ### `authen/`
 - Handles user authentication and authorization
@@ -159,7 +159,7 @@ Java Swing based user interface
 
 ---
 
-## 🧪 Testing & Validation
+##  Testing & Validation
 - Duplicate enrollments prevented
 - Capacity limits enforced
 - Deadline checks on add/drop
@@ -169,7 +169,7 @@ Java Swing based user interface
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 - Java (JDK 17+)
 - Java Swing (GUI)
 - MySQL
@@ -179,7 +179,7 @@ Java Swing based user interface
 
 ---
 
-## 📦 Setup Instructions
+##  Setup Instructions
 
 1. Clone the repository
 2. Configure MySQL databases (Auth DB + ERP DB)
@@ -193,6 +193,6 @@ Java Swing based user interface
 
 ---
 
-## 👤 Author
+##  Author
 **Mannat Raj Singh**
 
