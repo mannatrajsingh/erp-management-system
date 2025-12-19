@@ -193,6 +193,4 @@ Java Swing based user interface
 
 ---
 
-##  Author
-**Mannat Raj Singh**
 
